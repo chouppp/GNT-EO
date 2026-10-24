@@ -1,0 +1,173 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 7
+  num_edges 18
+
+  node [
+    id 0
+    label "0"
+    pos 6.599693
+    pos 17.506742
+    cpu 18
+    max_cpu 18
+  ]
+  node [
+    id 1
+    label "1"
+    pos 10.049606
+    pos 15.377537
+    cpu 16
+    max_cpu 16
+  ]
+  node [
+    id 2
+    label "2"
+    pos 6.216388
+    pos 8.659433
+    cpu 15
+    max_cpu 15
+  ]
+  node [
+    id 3
+    label "3"
+    pos 5.466742
+    pos 3.145868
+    cpu 17
+    max_cpu 17
+  ]
+  node [
+    id 4
+    label "4"
+    pos 9.899530
+    pos 7.964391
+    cpu 19
+    max_cpu 19
+  ]
+  node [
+    id 5
+    label "5"
+    pos 13.181972
+    pos 14.594155
+    cpu 4
+    max_cpu 4
+  ]
+  node [
+    id 6
+    label "6"
+    pos 22.701174
+    pos 8.735398
+    cpu 13
+    max_cpu 13
+  ]
+
+  edge [
+    source 0
+    target 1
+    bw 40
+    max_bw 40
+  ]
+  edge [
+    source 0
+    target 5
+    bw 47
+    max_bw 47
+  ]
+  edge [
+    source 0
+    target 6
+    bw 20
+    max_bw 20
+  ]
+  edge [
+    source 1
+    target 0
+    bw 15
+    max_bw 15
+  ]
+  edge [
+    source 1
+    target 4
+    bw 27
+    max_bw 27
+  ]
+  edge [
+    source 1
+    target 5
+    bw 14
+    max_bw 14
+  ]
+  edge [
+    source 1
+    target 6
+    bw 2
+    max_bw 2
+  ]
+  edge [
+    source 2
+    target 6
+    bw 27
+    max_bw 27
+  ]
+  edge [
+    source 3
+    target 4
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 4
+    target 1
+    bw 10
+    max_bw 10
+  ]
+  edge [
+    source 4
+    target 3
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 5
+    target 0
+    bw 17
+    max_bw 17
+  ]
+  edge [
+    source 5
+    target 1
+    bw 18
+    max_bw 18
+  ]
+  edge [
+    source 5
+    target 6
+    bw 35
+    max_bw 35
+  ]
+  edge [
+    source 6
+    target 0
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 6
+    target 1
+    bw 34
+    max_bw 34
+  ]
+  edge [
+    source 6
+    target 2
+    bw 46
+    max_bw 46
+  ]
+  edge [
+    source 6
+    target 5
+    bw 8
+    max_bw 8
+  ]
+]

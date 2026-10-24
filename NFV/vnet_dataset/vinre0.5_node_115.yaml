@@ -1,0 +1,173 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 7
+  num_edges 18
+
+  node [
+    id 0
+    label "0"
+    pos 19.045567
+    pos 19.347663
+    cpu 10
+    max_cpu 10
+  ]
+  node [
+    id 1
+    label "1"
+    pos 20.930246
+    pos 11.526931
+    cpu 15
+    max_cpu 15
+  ]
+  node [
+    id 2
+    label "2"
+    pos 1.176589
+    pos 0.449713
+    cpu 19
+    max_cpu 19
+  ]
+  node [
+    id 3
+    label "3"
+    pos 22.770646
+    pos 23.888971
+    cpu 19
+    max_cpu 19
+  ]
+  node [
+    id 4
+    label "4"
+    pos 2.336046
+    pos 8.809313
+    cpu 13
+    max_cpu 13
+  ]
+  node [
+    id 5
+    label "5"
+    pos 14.349565
+    pos 16.468435
+    cpu 7
+    max_cpu 7
+  ]
+  node [
+    id 6
+    label "6"
+    pos 13.477043
+    pos 8.708080
+    cpu 13
+    max_cpu 13
+  ]
+
+  edge [
+    source 0
+    target 3
+    bw 8
+    max_bw 8
+  ]
+  edge [
+    source 0
+    target 6
+    bw 29
+    max_bw 29
+  ]
+  edge [
+    source 1
+    target 2
+    bw 7
+    max_bw 7
+  ]
+  edge [
+    source 1
+    target 3
+    bw 41
+    max_bw 41
+  ]
+  edge [
+    source 1
+    target 4
+    bw 25
+    max_bw 25
+  ]
+  edge [
+    source 1
+    target 5
+    bw 35
+    max_bw 35
+  ]
+  edge [
+    source 2
+    target 1
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 2
+    target 4
+    bw 48
+    max_bw 48
+  ]
+  edge [
+    source 3
+    target 0
+    bw 41
+    max_bw 41
+  ]
+  edge [
+    source 3
+    target 1
+    bw 21
+    max_bw 21
+  ]
+  edge [
+    source 3
+    target 5
+    bw 46
+    max_bw 46
+  ]
+  edge [
+    source 4
+    target 1
+    bw 38
+    max_bw 38
+  ]
+  edge [
+    source 4
+    target 2
+    bw 21
+    max_bw 21
+  ]
+  edge [
+    source 5
+    target 1
+    bw 16
+    max_bw 16
+  ]
+  edge [
+    source 5
+    target 3
+    bw 16
+    max_bw 16
+  ]
+  edge [
+    source 5
+    target 6
+    bw 26
+    max_bw 26
+  ]
+  edge [
+    source 6
+    target 0
+    bw 29
+    max_bw 29
+  ]
+  edge [
+    source 6
+    target 5
+    bw 45
+    max_bw 45
+  ]
+]

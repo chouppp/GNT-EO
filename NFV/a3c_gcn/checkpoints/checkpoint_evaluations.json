@@ -1,0 +1,394 @@
+[
+  {
+    "requests": 4002,
+    "successes": 1993,
+    "acceptance_ratio": 0.4980009995002499,
+    "mean_terminal_reward": 0.2253600505792523,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 588,
+      "no directed-feasible action": 1383,
+      "no feasible action": 38
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000010_episode_000010_worker_3.pt",
+    "completed_episodes": 10,
+    "source_episode_index": 10
+  },
+  {
+    "requests": 4002,
+    "successes": 1991,
+    "acceptance_ratio": 0.49750124937531237,
+    "mean_terminal_reward": 0.22407971867715584,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 527,
+      "no directed-feasible action": 1462,
+      "no feasible action": 22
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000020_episode_000020_worker_2.pt",
+    "completed_episodes": 20,
+    "source_episode_index": 20
+  },
+  {
+    "requests": 4002,
+    "successes": 1987,
+    "acceptance_ratio": 0.49650174912543726,
+    "mean_terminal_reward": 0.2217829650580185,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 529,
+      "no directed-feasible action": 1458,
+      "no feasible action": 28
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000030_episode_000030_worker_3.pt",
+    "completed_episodes": 30,
+    "source_episode_index": 30
+  },
+  {
+    "requests": 4002,
+    "successes": 1975,
+    "acceptance_ratio": 0.4935032483758121,
+    "mean_terminal_reward": 0.21422459588988946,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 602,
+      "no directed-feasible action": 1397,
+      "no feasible action": 28
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000040_episode_000040_worker_2.pt",
+    "completed_episodes": 40,
+    "source_episode_index": 40
+  },
+  {
+    "requests": 4002,
+    "successes": 1999,
+    "acceptance_ratio": 0.4995002498750625,
+    "mean_terminal_reward": 0.22911724188378263,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 597,
+      "no directed-feasible action": 1373,
+      "no feasible action": 33
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000050_episode_000050_worker_3.pt",
+    "completed_episodes": 50,
+    "source_episode_index": 50
+  },
+  {
+    "requests": 4002,
+    "successes": 1991,
+    "acceptance_ratio": 0.49750124937531237,
+    "mean_terminal_reward": 0.2240993465426686,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 570,
+      "no directed-feasible action": 1405,
+      "no feasible action": 36
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000060_episode_000060_worker_2.pt",
+    "completed_episodes": 60,
+    "source_episode_index": 60
+  },
+  {
+    "requests": 4002,
+    "successes": 2006,
+    "acceptance_ratio": 0.5012493753123438,
+    "mean_terminal_reward": 0.23325599564077623,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 577,
+      "no directed-feasible action": 1386,
+      "no feasible action": 33
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000070_episode_000070_worker_3.pt",
+    "completed_episodes": 70,
+    "source_episode_index": 70
+  },
+  {
+    "requests": 4002,
+    "successes": 1984,
+    "acceptance_ratio": 0.495752123938031,
+    "mean_terminal_reward": 0.2196644512697921,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 600,
+      "no directed-feasible action": 1386,
+      "no feasible action": 32
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000080_episode_000080_worker_2.pt",
+    "completed_episodes": 80,
+    "source_episode_index": 80
+  },
+  {
+    "requests": 4002,
+    "successes": 2010,
+    "acceptance_ratio": 0.5022488755622189,
+    "mean_terminal_reward": 0.23580478097549082,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 600,
+      "no directed-feasible action": 1355,
+      "no feasible action": 37
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000090_episode_000090_worker_3.pt",
+    "completed_episodes": 90,
+    "source_episode_index": 90
+  },
+  {
+    "requests": 4002,
+    "successes": 1981,
+    "acceptance_ratio": 0.4950024987506247,
+    "mean_terminal_reward": 0.21803593728830162,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 574,
+      "no directed-feasible action": 1423,
+      "no feasible action": 24
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000100_episode_000100_worker_2.pt",
+    "completed_episodes": 100,
+    "source_episode_index": 100
+  },
+  {
+    "requests": 4002,
+    "successes": 2018,
+    "acceptance_ratio": 0.504247876061969,
+    "mean_terminal_reward": 0.24069875998719747,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 602,
+      "no directed-feasible action": 1349,
+      "no feasible action": 33
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000110_episode_000110_worker_3.pt",
+    "completed_episodes": 110,
+    "source_episode_index": 110
+  },
+  {
+    "requests": 4002,
+    "successes": 2068,
+    "acceptance_ratio": 0.5167416291854073,
+    "mean_terminal_reward": 0.2714349125747767,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 614,
+      "no directed-feasible action": 1299,
+      "no feasible action": 21
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000120_episode_000120_worker_2.pt",
+    "completed_episodes": 120,
+    "source_episode_index": 120
+  },
+  {
+    "requests": 4002,
+    "successes": 2010,
+    "acceptance_ratio": 0.5022488755622189,
+    "mean_terminal_reward": 0.23579460476635716,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 608,
+      "no directed-feasible action": 1358,
+      "no feasible action": 26
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000130_episode_000130_worker_3.pt",
+    "completed_episodes": 130,
+    "source_episode_index": 130
+  },
+  {
+    "requests": 4002,
+    "successes": 2037,
+    "acceptance_ratio": 0.5089955022488756,
+    "mean_terminal_reward": 0.2524069478539822,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 595,
+      "no directed-feasible action": 1339,
+      "no feasible action": 31
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000140_episode_000140_worker_2.pt",
+    "completed_episodes": 140,
+    "source_episode_index": 140
+  },
+  {
+    "requests": 4002,
+    "successes": 2014,
+    "acceptance_ratio": 0.5032483758120939,
+    "mean_terminal_reward": 0.23822919822029656,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 618,
+      "no directed-feasible action": 1350,
+      "no feasible action": 20
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000150_episode_000150_worker_3.pt",
+    "completed_episodes": 150,
+    "source_episode_index": 150
+  },
+  {
+    "requests": 4002,
+    "successes": 2035,
+    "acceptance_ratio": 0.508495752123938,
+    "mean_terminal_reward": 0.2510866598913046,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 615,
+      "no directed-feasible action": 1328,
+      "no feasible action": 24
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000160_episode_000160_worker_0.pt",
+    "completed_episodes": 160,
+    "source_episode_index": 160
+  },
+  {
+    "requests": 4002,
+    "successes": 2025,
+    "acceptance_ratio": 0.5059970014992504,
+    "mean_terminal_reward": 0.24510647679752348,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 610,
+      "no directed-feasible action": 1343,
+      "no feasible action": 24
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000170_episode_000170_worker_3.pt",
+    "completed_episodes": 170,
+    "source_episode_index": 170
+  },
+  {
+    "requests": 4002,
+    "successes": 2015,
+    "acceptance_ratio": 0.5034982508745627,
+    "mean_terminal_reward": 0.2387243990618446,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 586,
+      "no directed-feasible action": 1372,
+      "no feasible action": 29
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000180_episode_000180_worker_0.pt",
+    "completed_episodes": 180,
+    "source_episode_index": 180
+  },
+  {
+    "requests": 4002,
+    "successes": 2033,
+    "acceptance_ratio": 0.5079960019990005,
+    "mean_terminal_reward": 0.24992007637474534,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 590,
+      "no directed-feasible action": 1348,
+      "no feasible action": 31
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000190_episode_000190_worker_3.pt",
+    "completed_episodes": 190,
+    "source_episode_index": 190
+  },
+  {
+    "requests": 4002,
+    "successes": 2035,
+    "acceptance_ratio": 0.508495752123938,
+    "mean_terminal_reward": 0.2511377780879247,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 587,
+      "no directed-feasible action": 1358,
+      "no feasible action": 22
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000200_episode_000200_worker_1.pt",
+    "completed_episodes": 200,
+    "source_episode_index": 200
+  },
+  {
+    "requests": 4002,
+    "successes": 2040,
+    "acceptance_ratio": 0.5097451274362819,
+    "mean_terminal_reward": 0.25407917456829804,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 613,
+      "no directed-feasible action": 1325,
+      "no feasible action": 24
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000210_episode_000210_worker_3.pt",
+    "completed_episodes": 210,
+    "source_episode_index": 210
+  },
+  {
+    "requests": 4002,
+    "successes": 2040,
+    "acceptance_ratio": 0.5097451274362819,
+    "mean_terminal_reward": 0.25406384629993506,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 600,
+      "no directed-feasible action": 1336,
+      "no feasible action": 26
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000220_episode_000220_worker_1.pt",
+    "completed_episodes": 220,
+    "source_episode_index": 220
+  },
+  {
+    "requests": 4002,
+    "successes": 2058,
+    "acceptance_ratio": 0.5142428785607196,
+    "mean_terminal_reward": 0.2652518063207465,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 669,
+      "no directed-feasible action": 1262,
+      "no feasible action": 13
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000230_episode_000230_worker_3.pt",
+    "completed_episodes": 230,
+    "source_episode_index": 230
+  },
+  {
+    "requests": 4002,
+    "successes": 2032,
+    "acceptance_ratio": 0.5077461269365318,
+    "mean_terminal_reward": 0.24920531157444795,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 616,
+      "no directed-feasible action": 1328,
+      "no feasible action": 26
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000240_episode_000240_worker_1.pt",
+    "completed_episodes": 240,
+    "source_episode_index": 240
+  },
+  {
+    "requests": 4002,
+    "successes": 2055,
+    "acceptance_ratio": 0.5134932533733133,
+    "mean_terminal_reward": 0.2634101851768524,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 626,
+      "no directed-feasible action": 1295,
+      "no feasible action": 26
+    },
+    "checkpoint": "NFV/a3c_gcn/checkpoints/selection_candidates/c3127053a88d407492d69820406222a3/candidate_000250_episode_000250_worker_3.pt",
+    "completed_episodes": 250,
+    "source_episode_index": 250
+  },
+  {
+    "requests": 4002,
+    "successes": 2055,
+    "acceptance_ratio": 0.5134932533733133,
+    "mean_terminal_reward": 0.2634101851768524,
+    "action_selection": "greedy_argmax",
+    "failure_reasons": {
+      "EO directed link mapping failed": 626,
+      "no directed-feasible action": 1295,
+      "no feasible action": 26
+    },
+    "dataset": "training_event_files",
+    "in_sample": true,
+    "checkpoint": "NFV/a3c_gcn/checkpoints/a3c_gcn_full_last.pt",
+    "completed_episodes": 250,
+    "source_episode_index": 250
+  }
+]

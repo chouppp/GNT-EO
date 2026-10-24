@@ -1,0 +1,199 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 8
+  num_edges 21
+
+  node [
+    id 0
+    label "0"
+    pos 0.346579
+    pos 0.881004
+    cpu 16
+    max_cpu 16
+  ]
+  node [
+    id 1
+    label "1"
+    pos 20.679386
+    pos 0.382707
+    cpu 18
+    max_cpu 18
+  ]
+  node [
+    id 2
+    label "2"
+    pos 6.997335
+    pos 12.582315
+    cpu 13
+    max_cpu 13
+  ]
+  node [
+    id 3
+    label "3"
+    pos 12.563257
+    pos 10.916384
+    cpu 16
+    max_cpu 16
+  ]
+  node [
+    id 4
+    label "4"
+    pos 19.621472
+    pos 5.955178
+    cpu 6
+    max_cpu 6
+  ]
+  node [
+    id 5
+    label "5"
+    pos 13.732778
+    pos 22.503829
+    cpu 19
+    max_cpu 19
+  ]
+  node [
+    id 6
+    label "6"
+    pos 1.200565
+    pos 21.095906
+    cpu 15
+    max_cpu 15
+  ]
+  node [
+    id 7
+    label "7"
+    pos 9.539992
+    pos 8.913384
+    cpu 10
+    max_cpu 10
+  ]
+
+  edge [
+    source 0
+    target 2
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 0
+    target 4
+    bw 32
+    max_bw 32
+  ]
+  edge [
+    source 0
+    target 6
+    bw 7
+    max_bw 7
+  ]
+  edge [
+    source 1
+    target 3
+    bw 21
+    max_bw 21
+  ]
+  edge [
+    source 1
+    target 4
+    bw 12
+    max_bw 12
+  ]
+  edge [
+    source 2
+    target 0
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 2
+    target 4
+    bw 43
+    max_bw 43
+  ]
+  edge [
+    source 2
+    target 7
+    bw 44
+    max_bw 44
+  ]
+  edge [
+    source 2
+    target 6
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 3
+    target 1
+    bw 19
+    max_bw 19
+  ]
+  edge [
+    source 3
+    target 5
+    bw 13
+    max_bw 13
+  ]
+  edge [
+    source 4
+    target 0
+    bw 24
+    max_bw 24
+  ]
+  edge [
+    source 4
+    target 1
+    bw 21
+    max_bw 21
+  ]
+  edge [
+    source 4
+    target 2
+    bw 10
+    max_bw 10
+  ]
+  edge [
+    source 4
+    target 6
+    bw 5
+    max_bw 5
+  ]
+  edge [
+    source 5
+    target 3
+    bw 15
+    max_bw 15
+  ]
+  edge [
+    source 6
+    target 0
+    bw 3
+    max_bw 3
+  ]
+  edge [
+    source 6
+    target 4
+    bw 9
+    max_bw 9
+  ]
+  edge [
+    source 6
+    target 7
+    bw 33
+    max_bw 33
+  ]
+  edge [
+    source 7
+    target 2
+    bw 46
+    max_bw 46
+  ]
+  edge [
+    source 7
+    target 6
+    bw 4
+    max_bw 4
+  ]
+]

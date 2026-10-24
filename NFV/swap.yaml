@@ -1,0 +1,24 @@
+switches:
+  s1:
+    interfaces:
+      - name: s1-eth1
+        mac: "00:01:0a:00:01:01"
+        peer: h1-eth0
+        peer_node: h1
+
+      - name: s1-eth2
+        mac: "00:00:00:01:02:00"
+        peer: s3-eth1
+        peer_node: s3
+
+      - name: s1-eth3
+        mac: "00:00:00:01:02:00"
+        peer: s3-eth1
+        peer_node: s3
+
+  s2:
+    interfaces:
+      - name: s2-eth1
+        mac: "00:00:0a:00:02:01"
+        peer: s1-eth1
+        peer_node: s1

@@ -1,0 +1,46 @@
+# All file/directory paths below are relative to the project root.
+# Database connection: edit database.ini (shared by all algorithms).
+database:
+  # link_table currently contains millions of paths. Keep only the shortest K
+  # candidates for each directed (source, destination) pair during training.
+  max_paths_per_pair: 100
+
+vnet_dir: NFV/vnet_dataset
+filename_pattern: vinre0.5_node_{vnr_id}.yaml
+event_files:
+  - NFV/Random_event_generator/vnr_events.yaml
+  - NFV/Random_event_generator/vnr_events2.yaml
+  - NFV/Random_event_generator/vnr_events3.yaml
+  - NFV/Random_event_generator/vnr_events4.yaml
+  - NFV/Random_event_generator/vnr_events5.yaml
+  - NFV/Random_event_generator/vnr_events6.yaml
+  - NFV/Random_event_generator/vnr_events7.yaml
+  - NFV/Random_event_generator/vnr_events8.yaml
+  - NFV/Random_event_generator/vnr_events9.yaml
+  - NFV/Random_event_generator/vnr_events10.yaml
+validation_event_files: []
+output_dir: NFV/a3c_gcn/checkpoints
+
+episodes: 250
+num_workers: 4
+embedding_dim: 64
+learning_rate: 0.0001
+gamma: 0.99
+entropy_coef: 0.01
+value_loss_coef: 0.5
+max_grad_norm: 0.5
+distance_limit: 10.0
+reusable: false
+
+intermediate_reward: 0.01
+success_reward: 1.0
+failure_reward: -1.0
+quality_weight: 0.5
+progress_interval: 50
+# After training, replay event_files once with argmax actions. This is an
+# in-sample diagnostic, not an independent validation/test result.
+evaluate_training_greedy: true
+# Save a candidate model every N completed episodes, then select the best one
+# by deterministic greedy evaluation. Set to 0 to keep only the final model.
+checkpoint_interval: 10
+seed: 2026

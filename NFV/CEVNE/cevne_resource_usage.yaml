@@ -1,0 +1,67 @@
+records:
+- time: 100.0
+  bandwidth:
+    used: 1808.0
+    total: 17111.0
+    usage_ratio: 0.10566302378586874
+    usage_percent: 10.5663
+  cpu:
+    used: 325.0
+    total: 1921.0
+    usage_ratio: 0.1691827173347215
+    usage_percent: 16.9183
+  acceptance_rate: 1.0
+  domain_temperatures:
+  - domain_id: 0
+    T: 191.88193066964294
+    F: 138.33685
+    H: 1.5328718598264341
+  - domain_id: 1
+    T: 62355025.6825897
+    F: 22.344
+    H: 0.6085564697091892
+  - domain_id: 2
+    T: 0.0
+    F: 0.0
+    H: 0.0
+  - domain_id: 3
+    T: 0.0
+    F: 0.0
+    H: 0.0
+  - domain_id: 4
+    T: 81.46835843499017
+    F: 42.57994
+    H: 0.5226561675953778
+- time: 200.0
+  bandwidth:
+    used: 4297.0
+    total: 17111.0
+    usage_ratio: 0.25112500730524223
+    usage_percent: 25.1125
+  cpu:
+    used: 587.0
+    total: 1921.0
+    usage_ratio: 0.3055700156168662
+    usage_percent: 30.557
+  acceptance_rate: 1.0
+  domain_temperatures:
+  - domain_id: 0
+    T: 1144.5343796449338
+    F: 246.87900000000002
+    H: 2.0166384696566886
+  - domain_id: 1
+    T: -403.04909598030355
+    F: 89.919
+    H: 1.307543124829781
+  - domain_id: 2
+    T: 191718621.52623326
+    F: 223.19680000000002
+    H: 1.6874173780379553
+  - domain_id: 3
+    T: -1177.5339005952856
+    F: 88.5964
+    H: 1.0649362082916456
+  - domain_id: 4
+    T: -1799.1731761377919
+    F: 74.7313
+    H: 0.6895751687314959

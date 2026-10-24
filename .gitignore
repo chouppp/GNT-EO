@@ -1,0 +1,11 @@
+database.ini
+.env
+.venv/
+.venv-eo/
+**/.idea/
+**/__pycache__/
+**/.pytest_cache/
+**/work/
+**/backup*/
+*.pyc
+*.pyo

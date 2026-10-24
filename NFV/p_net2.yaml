@@ -1,0 +1,1291 @@
+graph [
+  node_attrs_setting [
+    name "cpu"
+    distribution "uniform"
+    dtype "int"
+    generative 1
+    high 100
+    low 50
+    owner "node"
+    type "resource"
+  ]
+  node_attrs_setting [
+    name "max_cpu"
+    originator "cpu"
+    owner "node"
+    type "extrema"
+  ]
+
+  link_attrs_setting [
+    name "bw"
+    distribution "uniform"
+    dtype "int"
+    generative 1
+    high 100
+    low 50
+    owner "link"
+    type "resource"
+  ]
+  link_attrs_setting [
+    name "max_bw"
+    originator "bw"
+    owner "link"
+    type "extrema"
+  ]
+
+  topology [
+    type "waxman"
+  ]
+  num_nodes 30
+  num_edges 168
+
+  node [
+    id 0
+    label "0"
+    pos 13.451235
+    pos 23.411538
+    cpu 82
+    max_cpu 82
+  ]
+  node [
+    id 1
+    label "1"
+    pos 14.057217
+    pos 10.726147
+    cpu 57
+    max_cpu 57
+  ]
+  node [
+    id 2
+    label "2"
+    pos 1.383864
+    pos 13.526925
+    cpu 76
+    max_cpu 76
+  ]
+  node [
+    id 3
+    label "3"
+    pos 3.049981
+    pos 22.503423
+    cpu 88
+    max_cpu 88
+  ]
+  node [
+    id 4
+    label "4"
+    pos 19.957376
+    pos 9.614079
+    cpu 54
+    max_cpu 54
+  ]
+  node [
+    id 5
+    label "5"
+    pos 3.686209
+    pos 15.240431
+    cpu 87
+    max_cpu 87
+  ]
+  node [
+    id 6
+    label "6"
+    pos 16.038776
+    pos 19.107110
+    cpu 75
+    max_cpu 75
+  ]
+  node [
+    id 7
+    label "7"
+    pos 8.317448
+    pos 0.950574
+    cpu 94
+    max_cpu 94
+  ]
+  node [
+    id 8
+    label "8"
+    pos 18.470545
+    pos 6.445195
+    cpu 55
+    max_cpu 55
+  ]
+  node [
+    id 9
+    label "9"
+    pos 20.755114
+    pos 18.516025
+    cpu 95
+    max_cpu 95
+  ]
+  node [
+    id 10
+    label "10"
+    pos 12.765255
+    pos 5.221922
+    cpu 70
+    max_cpu 70
+  ]
+  node [
+    id 11
+    label "11"
+    pos 24.963512
+    pos 12.604837
+    cpu 59
+    max_cpu 59
+  ]
+  node [
+    id 12
+    label "12"
+    pos 23.489635
+    pos 10.515603
+    cpu 97
+    max_cpu 97
+  ]
+  node [
+    id 13
+    label "13"
+    pos 6.830603
+    pos 21.927877
+    cpu 55
+    max_cpu 55
+  ]
+  node [
+    id 14
+    label "14"
+    pos 1.958130
+    pos 23.461441
+    cpu 88
+    max_cpu 88
+  ]
+  node [
+    id 15
+    label "15"
+    pos 11.403877
+    pos 22.241932
+    cpu 69
+    max_cpu 69
+  ]
+  node [
+    id 16
+    label "16"
+    pos 12.846115
+    pos 8.254700
+    cpu 81
+    max_cpu 81
+  ]
+  node [
+    id 17
+    label "17"
+    pos 24.434907
+    pos 24.692679
+    cpu 70
+    max_cpu 70
+  ]
+  node [
+    id 18
+    label "18"
+    pos 0.428749
+    pos 4.512666
+    cpu 75
+    max_cpu 75
+  ]
+  node [
+    id 19
+    label "19"
+    pos 4.648187
+    pos 4.303267
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 20
+    label "20"
+    pos 14.565962
+    pos 12.952455
+    cpu 74
+    max_cpu 74
+  ]
+  node [
+    id 21
+    label "21"
+    pos 3.539023
+    pos 17.747008
+    cpu 70
+    max_cpu 70
+  ]
+  node [
+    id 22
+    label "22"
+    pos 24.675433
+    pos 9.083020
+    cpu 72
+    max_cpu 72
+  ]
+  node [
+    id 23
+    label "23"
+    pos 15.539451
+    pos 3.383772
+    cpu 95
+    max_cpu 95
+  ]
+  node [
+    id 24
+    label "24"
+    pos 21.022064
+    pos 20.855643
+    cpu 94
+    max_cpu 94
+  ]
+  node [
+    id 25
+    label "25"
+    pos 22.909469
+    pos 13.565233
+    cpu 67
+    max_cpu 67
+  ]
+  node [
+    id 26
+    label "26"
+    pos 15.840967
+    pos 0.707835
+    cpu 59
+    max_cpu 59
+  ]
+  node [
+    id 27
+    label "27"
+    pos 18.161497
+    pos 1.726030
+    cpu 100
+    max_cpu 100
+  ]
+  node [
+    id 28
+    label "28"
+    pos 18.690299
+    pos 7.905182
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 29
+    label "29"
+    pos 9.463891
+    pos 15.232667
+    cpu 84
+    max_cpu 84
+  ]
+
+  edge [
+    source 0
+    target 4
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 0
+    target 9
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 0
+    target 14
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 0
+    target 21
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 0
+    target 29
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 0
+    target 11
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 0
+    target 7
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 0
+    target 26
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 0
+    target 6
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 1
+    target 4
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 1
+    target 10
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 1
+    target 23
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 1
+    target 24
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 1
+    target 25
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 1
+    target 28
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 2
+    target 16
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 2
+    target 21
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 2
+    target 20
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 2
+    target 29
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 2
+    target 10
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 3
+    target 14
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 3
+    target 19
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 3
+    target 23
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 3
+    target 28
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 3
+    target 22
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 3
+    target 27
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 3
+    target 8
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 3
+    target 11
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 3
+    target 15
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 4
+    target 0
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 4
+    target 1
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 4
+    target 5
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 4
+    target 6
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 4
+    target 11
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 4
+    target 28
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 4
+    target 14
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 4
+    target 2
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 5
+    target 4
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 5
+    target 13
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 5
+    target 2
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 6
+    target 4
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 6
+    target 19
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 6
+    target 1
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 6
+    target 28
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 7
+    target 13
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 7
+    target 18
+    bw 65
+    max_bw 65
+  ]
+  edge [
+    source 7
+    target 25
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 7
+    target 28
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 7
+    target 10
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 7
+    target 22
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 7
+    target 14
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 7
+    target 0
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 7
+    target 24
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 8
+    target 22
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 8
+    target 28
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 8
+    target 13
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 8
+    target 23
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 9
+    target 0
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 9
+    target 11
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 9
+    target 7
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 10
+    target 1
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 10
+    target 20
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 10
+    target 17
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 10
+    target 25
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 11
+    target 4
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 11
+    target 9
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 11
+    target 22
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 11
+    target 16
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 11
+    target 12
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 12
+    target 22
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 12
+    target 27
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 12
+    target 28
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 12
+    target 29
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 12
+    target 13
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 12
+    target 18
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 12
+    target 8
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 12
+    target 4
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 12
+    target 14
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 13
+    target 5
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 13
+    target 7
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 13
+    target 15
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 13
+    target 0
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 13
+    target 6
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 14
+    target 0
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 14
+    target 3
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 14
+    target 20
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 14
+    target 15
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 14
+    target 26
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 15
+    target 17
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 15
+    target 21
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 15
+    target 12
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 16
+    target 2
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 16
+    target 26
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 16
+    target 9
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 16
+    target 25
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 17
+    target 15
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 17
+    target 24
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 17
+    target 8
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 18
+    target 7
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 18
+    target 27
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 18
+    target 3
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 18
+    target 0
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 18
+    target 5
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 19
+    target 3
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 19
+    target 6
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 20
+    target 10
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 20
+    target 5
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 20
+    target 18
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 20
+    target 25
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 21
+    target 0
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 21
+    target 2
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 21
+    target 15
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 21
+    target 25
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 21
+    target 23
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 21
+    target 19
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 21
+    target 17
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 21
+    target 18
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 21
+    target 26
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 22
+    target 8
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 22
+    target 11
+    bw 66
+    max_bw 66
+  ]
+  edge [
+    source 22
+    target 12
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 22
+    target 27
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 22
+    target 4
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 22
+    target 24
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 22
+    target 16
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 22
+    target 6
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 22
+    target 10
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 23
+    target 1
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 23
+    target 3
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 24
+    target 1
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 24
+    target 17
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 24
+    target 25
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 24
+    target 28
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 24
+    target 29
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 25
+    target 1
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 25
+    target 7
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 25
+    target 21
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 25
+    target 24
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 25
+    target 29
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 25
+    target 3
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 25
+    target 28
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 25
+    target 22
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 26
+    target 16
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 26
+    target 29
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 26
+    target 18
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 26
+    target 6
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 26
+    target 15
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 27
+    target 12
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 27
+    target 18
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 27
+    target 22
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 27
+    target 4
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 27
+    target 17
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 28
+    target 1
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 28
+    target 3
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 28
+    target 4
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 28
+    target 7
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 28
+    target 8
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 28
+    target 12
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 28
+    target 25
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 28
+    target 11
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 28
+    target 13
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 28
+    target 22
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 29
+    target 0
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 29
+    target 12
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 29
+    target 25
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 29
+    target 26
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 29
+    target 5
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 29
+    target 7
+    bw 80
+    max_bw 80
+  ]
+]

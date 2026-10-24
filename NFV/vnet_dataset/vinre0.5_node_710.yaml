@@ -1,0 +1,77 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 4
+  num_edges 6
+
+  node [
+    id 0
+    label "0"
+    pos 17.112575
+    pos 6.193291
+    cpu 14
+    max_cpu 14
+  ]
+  node [
+    id 1
+    label "1"
+    pos 7.563542
+    pos 19.322783
+    cpu 6
+    max_cpu 6
+  ]
+  node [
+    id 2
+    label "2"
+    pos 6.075884
+    pos 14.639710
+    cpu 11
+    max_cpu 11
+  ]
+  node [
+    id 3
+    label "3"
+    pos 4.475341
+    pos 12.064704
+    cpu 19
+    max_cpu 19
+  ]
+
+  edge [
+    source 0
+    target 2
+    bw 0
+    max_bw 0
+  ]
+  edge [
+    source 1
+    target 2
+    bw 36
+    max_bw 36
+  ]
+  edge [
+    source 2
+    target 0
+    bw 30
+    max_bw 30
+  ]
+  edge [
+    source 2
+    target 1
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 2
+    target 3
+    bw 34
+    max_bw 34
+  ]
+  edge [
+    source 3
+    target 2
+    bw 39
+    max_bw 39
+  ]
+]

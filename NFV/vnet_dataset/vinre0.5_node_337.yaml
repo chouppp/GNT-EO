@@ -1,0 +1,173 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 7
+  num_edges 18
+
+  node [
+    id 0
+    label "0"
+    pos 24.711225
+    pos 2.319430
+    cpu 9
+    max_cpu 9
+  ]
+  node [
+    id 1
+    label "1"
+    pos 6.695172
+    pos 23.442743
+    cpu 1
+    max_cpu 1
+  ]
+  node [
+    id 2
+    label "2"
+    pos 13.963639
+    pos 6.172124
+    cpu 13
+    max_cpu 13
+  ]
+  node [
+    id 3
+    label "3"
+    pos 11.480189
+    pos 17.360897
+    cpu 8
+    max_cpu 8
+  ]
+  node [
+    id 4
+    label "4"
+    pos 9.635166
+    pos 20.253808
+    cpu 3
+    max_cpu 3
+  ]
+  node [
+    id 5
+    label "5"
+    pos 8.285606
+    pos 21.648860
+    cpu 7
+    max_cpu 7
+  ]
+  node [
+    id 6
+    label "6"
+    pos 23.456078
+    pos 16.826659
+    cpu 11
+    max_cpu 11
+  ]
+
+  edge [
+    source 0
+    target 5
+    bw 23
+    max_bw 23
+  ]
+  edge [
+    source 1
+    target 3
+    bw 49
+    max_bw 49
+  ]
+  edge [
+    source 1
+    target 4
+    bw 36
+    max_bw 36
+  ]
+  edge [
+    source 1
+    target 5
+    bw 8
+    max_bw 8
+  ]
+  edge [
+    source 2
+    target 5
+    bw 24
+    max_bw 24
+  ]
+  edge [
+    source 3
+    target 1
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 3
+    target 4
+    bw 44
+    max_bw 44
+  ]
+  edge [
+    source 3
+    target 5
+    bw 43
+    max_bw 43
+  ]
+  edge [
+    source 3
+    target 6
+    bw 43
+    max_bw 43
+  ]
+  edge [
+    source 4
+    target 1
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 4
+    target 3
+    bw 9
+    max_bw 9
+  ]
+  edge [
+    source 4
+    target 5
+    bw 26
+    max_bw 26
+  ]
+  edge [
+    source 5
+    target 0
+    bw 19
+    max_bw 19
+  ]
+  edge [
+    source 5
+    target 1
+    bw 10
+    max_bw 10
+  ]
+  edge [
+    source 5
+    target 2
+    bw 8
+    max_bw 8
+  ]
+  edge [
+    source 5
+    target 3
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 5
+    target 4
+    bw 11
+    max_bw 11
+  ]
+  edge [
+    source 6
+    target 3
+    bw 24
+    max_bw 24
+  ]
+]

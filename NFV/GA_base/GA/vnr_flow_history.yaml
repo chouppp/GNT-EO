@@ -1,0 +1,741 @@
+records:
+- time: 100.0
+  step: 1
+  active_vnr_num: 0
+  vnr_flows: []
+  global_link_flow: []
+- time: 100.0
+  step: 2
+  active_vnr_num: 1
+  vnr_flows:
+  - vnr_id: 2188
+    source: 18
+    target: 2
+    flow: 28.22510551975826
+  - vnr_id: 2188
+    source: 15
+    target: 22
+    flow: 47.469495646866164
+  - vnr_id: 2188
+    source: 22
+    target: 2
+    flow: 48.110975317769764
+  - vnr_id: 2188
+    source: 23
+    target: 12
+    flow: 25.017707165240274
+  - vnr_id: 2188
+    source: 2
+    target: 18
+    flow: 21.81030881072229
+  - vnr_id: 2188
+    source: 2
+    target: 22
+    flow: 31.432503874276243
+  - vnr_id: 2188
+    source: 22
+    target: 15
+    flow: 28.22510551975826
+  - vnr_id: 2188
+    source: 18
+    target: 7
+    flow: 16.678471443493518
+  - vnr_id: 2188
+    source: 12
+    target: 18
+    flow: 16.03699177258992
+  - vnr_id: 2188
+    source: 12
+    target: 23
+    flow: 15.395512101686323
+  - vnr_id: 2188
+    source: 18
+    target: 12
+    flow: 11.546634076264743
+  - vnr_id: 2188
+    source: 7
+    target: 18
+    flow: 1.2829593418071936
+  - vnr_id: 2188
+    source: 21
+    target: 7
+    flow: 1.2829593418071936
+  - vnr_id: 2188
+    source: 7
+    target: 21
+    flow: 0.0
+  global_link_flow:
+  - source: 18
+    target: 2
+    flow: 28.22510551975826
+  - source: 15
+    target: 22
+    flow: 47.469495646866164
+  - source: 22
+    target: 2
+    flow: 48.110975317769764
+  - source: 23
+    target: 12
+    flow: 25.017707165240274
+  - source: 2
+    target: 18
+    flow: 21.81030881072229
+  - source: 2
+    target: 22
+    flow: 31.432503874276243
+  - source: 22
+    target: 15
+    flow: 28.22510551975826
+  - source: 18
+    target: 7
+    flow: 16.678471443493518
+  - source: 12
+    target: 18
+    flow: 16.03699177258992
+  - source: 12
+    target: 23
+    flow: 15.395512101686323
+  - source: 18
+    target: 12
+    flow: 11.546634076264743
+  - source: 7
+    target: 18
+    flow: 1.2829593418071936
+  - source: 21
+    target: 7
+    flow: 1.2829593418071936
+  - source: 7
+    target: 21
+    flow: 0.0
+- time: 100.0
+  step: 3
+  active_vnr_num: 2
+  vnr_flows:
+  - vnr_id: 2188
+    source: 18
+    target: 2
+    flow: 32.67624708702012
+  - vnr_id: 2188
+    source: 15
+    target: 22
+    flow: 54.95550646453385
+  - vnr_id: 2188
+    source: 22
+    target: 2
+    flow: 55.698148443784305
+  - vnr_id: 2188
+    source: 23
+    target: 12
+    flow: 28.96303719076784
+  - vnr_id: 2188
+    source: 2
+    target: 18
+    flow: 25.24982729451555
+  - vnr_id: 2188
+    source: 2
+    target: 22
+    flow: 36.38945698327241
+  - vnr_id: 2188
+    source: 22
+    target: 15
+    flow: 32.67624708702012
+  - vnr_id: 2188
+    source: 18
+    target: 7
+    flow: 19.30869146051189
+  - vnr_id: 2188
+    source: 12
+    target: 18
+    flow: 18.566049481261434
+  - vnr_id: 2188
+    source: 12
+    target: 23
+    flow: 17.823407502010976
+  - vnr_id: 2188
+    source: 18
+    target: 12
+    flow: 13.367555626508233
+  - vnr_id: 2188
+    source: 7
+    target: 18
+    flow: 1.4852839585009148
+  - vnr_id: 2188
+    source: 21
+    target: 7
+    flow: 1.4852839585009148
+  - vnr_id: 2188
+    source: 7
+    target: 21
+    flow: 0.0
+  - vnr_id: 2245
+    source: 14
+    target: 11
+    flow: 31.653021984950687
+  - vnr_id: 2245
+    source: 11
+    target: 22
+    flow: 31.01996154525167
+  - vnr_id: 2245
+    source: 12
+    target: 19
+    flow: 56.34237913321222
+  - vnr_id: 2245
+    source: 18
+    target: 12
+    flow: 28.487719786455617
+  - vnr_id: 2245
+    source: 7
+    target: 18
+    flow: 28.487719786455617
+  - vnr_id: 2245
+    source: 19
+    target: 12
+    flow: 33.55220330404773
+  - vnr_id: 2245
+    source: 12
+    target: 23
+    flow: 27.22159890705759
+  - vnr_id: 2245
+    source: 23
+    target: 12
+    flow: 27.22159890705759
+  - vnr_id: 2245
+    source: 22
+    target: 11
+    flow: 27.22159890705759
+  - vnr_id: 2245
+    source: 12
+    target: 22
+    flow: 24.05629670856252
+  - vnr_id: 2245
+    source: 22
+    target: 13
+    flow: 24.05629670856252
+  - vnr_id: 2245
+    source: 12
+    target: 10
+    flow: 23.42323626886351
+  - vnr_id: 2245
+    source: 18
+    target: 7
+    flow: 23.42323626886351
+  - vnr_id: 2245
+    source: 19
+    target: 22
+    flow: 21.524054949766466
+  - vnr_id: 2245
+    source: 18
+    target: 14
+    flow: 18.358752751271396
+  - vnr_id: 2245
+    source: 11
+    target: 14
+    flow: 17.725692311572384
+  - vnr_id: 2245
+    source: 22
+    target: 19
+    flow: 17.09263187187337
+  - vnr_id: 2245
+    source: 18
+    target: 10
+    flow: 17.09263187187337
+  - vnr_id: 2245
+    source: 23
+    target: 18
+    flow: 16.459571432174357
+  - vnr_id: 2245
+    source: 22
+    target: 18
+    flow: 13.927329673378301
+  - vnr_id: 2245
+    source: 10
+    target: 12
+    flow: 11.395087914582247
+  - vnr_id: 2245
+    source: 13
+    target: 22
+    flow: 10.12896703518422
+  - vnr_id: 2245
+    source: 22
+    target: 12
+    flow: 10.12896703518422
+  - vnr_id: 2245
+    source: 14
+    target: 18
+    flow: 6.9636648366891505
+  - vnr_id: 2245
+    source: 18
+    target: 22
+    flow: 3.7983626381940825
+  - vnr_id: 2245
+    source: 10
+    target: 18
+    flow: 3.7983626381940825
+  - vnr_id: 2245
+    source: 18
+    target: 23
+    flow: 0.6330604396990137
+  global_link_flow:
+  - source: 18
+    target: 2
+    flow: 32.67624708702012
+  - source: 15
+    target: 22
+    flow: 54.95550646453385
+  - source: 22
+    target: 2
+    flow: 55.698148443784305
+  - source: 23
+    target: 12
+    flow: 56.18463609782543
+  - source: 2
+    target: 18
+    flow: 25.24982729451555
+  - source: 2
+    target: 22
+    flow: 36.38945698327241
+  - source: 22
+    target: 15
+    flow: 32.67624708702012
+  - source: 18
+    target: 7
+    flow: 42.7319277293754
+  - source: 12
+    target: 18
+    flow: 18.566049481261434
+  - source: 12
+    target: 23
+    flow: 45.04500640906856
+  - source: 18
+    target: 12
+    flow: 41.85527541296385
+  - source: 7
+    target: 18
+    flow: 29.973003744956532
+  - source: 21
+    target: 7
+    flow: 1.4852839585009148
+  - source: 7
+    target: 21
+    flow: 0.0
+  - source: 14
+    target: 11
+    flow: 31.653021984950687
+  - source: 11
+    target: 22
+    flow: 31.01996154525167
+  - source: 12
+    target: 19
+    flow: 56.34237913321222
+  - source: 19
+    target: 12
+    flow: 33.55220330404773
+  - source: 22
+    target: 11
+    flow: 27.22159890705759
+  - source: 12
+    target: 22
+    flow: 24.05629670856252
+  - source: 22
+    target: 13
+    flow: 24.05629670856252
+  - source: 12
+    target: 10
+    flow: 23.42323626886351
+  - source: 19
+    target: 22
+    flow: 21.524054949766466
+  - source: 18
+    target: 14
+    flow: 18.358752751271396
+  - source: 11
+    target: 14
+    flow: 17.725692311572384
+  - source: 22
+    target: 19
+    flow: 17.09263187187337
+  - source: 18
+    target: 10
+    flow: 17.09263187187337
+  - source: 23
+    target: 18
+    flow: 16.459571432174357
+  - source: 22
+    target: 18
+    flow: 13.927329673378301
+  - source: 10
+    target: 12
+    flow: 11.395087914582247
+  - source: 13
+    target: 22
+    flow: 10.12896703518422
+  - source: 22
+    target: 12
+    flow: 10.12896703518422
+  - source: 14
+    target: 18
+    flow: 6.9636648366891505
+  - source: 18
+    target: 22
+    flow: 3.7983626381940825
+  - source: 10
+    target: 18
+    flow: 3.7983626381940825
+  - source: 18
+    target: 23
+    flow: 0.6330604396990137
+- time: 100.0
+  step: 4
+  active_vnr_num: 3
+  vnr_flows:
+  - vnr_id: 2188
+    source: 18
+    target: 2
+    flow: 27.30917984891549
+  - vnr_id: 2188
+    source: 15
+    target: 22
+    flow: 45.92907520044878
+  - vnr_id: 2188
+    source: 22
+    target: 2
+    flow: 46.54973837883322
+  - vnr_id: 2188
+    source: 23
+    target: 12
+    flow: 24.205863956993277
+  - vnr_id: 2188
+    source: 2
+    target: 18
+    flow: 21.102548065071062
+  - vnr_id: 2188
+    source: 2
+    target: 22
+    flow: 30.412495740837706
+  - vnr_id: 2188
+    source: 22
+    target: 15
+    flow: 27.30917984891549
+  - vnr_id: 2188
+    source: 18
+    target: 7
+    flow: 16.137242637995517
+  - vnr_id: 2188
+    source: 12
+    target: 18
+    flow: 15.516579459611075
+  - vnr_id: 2188
+    source: 12
+    target: 23
+    flow: 14.895916281226631
+  - vnr_id: 2188
+    source: 18
+    target: 12
+    flow: 11.171937210919973
+  - vnr_id: 2188
+    source: 7
+    target: 18
+    flow: 1.241326356768886
+  - vnr_id: 2188
+    source: 21
+    target: 7
+    flow: 1.241326356768886
+  - vnr_id: 2188
+    source: 7
+    target: 21
+    flow: 0.0
+  - vnr_id: 2245
+    source: 14
+    target: 11
+    flow: 33.805396439799665
+  - vnr_id: 2245
+    source: 11
+    target: 22
+    flow: 33.12928851100367
+  - vnr_id: 2245
+    source: 12
+    target: 19
+    flow: 60.17360566284341
+  - vnr_id: 2245
+    source: 18
+    target: 12
+    flow: 30.4248567958197
+  - vnr_id: 2245
+    source: 7
+    target: 18
+    flow: 30.4248567958197
+  - vnr_id: 2245
+    source: 19
+    target: 12
+    flow: 35.83372022618765
+  - vnr_id: 2245
+    source: 12
+    target: 23
+    flow: 29.072640938227714
+  - vnr_id: 2245
+    source: 23
+    target: 12
+    flow: 29.072640938227714
+  - vnr_id: 2245
+    source: 22
+    target: 11
+    flow: 29.072640938227714
+  - vnr_id: 2245
+    source: 12
+    target: 22
+    flow: 25.69210129424775
+  - vnr_id: 2245
+    source: 22
+    target: 13
+    flow: 25.69210129424775
+  - vnr_id: 2245
+    source: 12
+    target: 10
+    flow: 25.015993365451752
+  - vnr_id: 2245
+    source: 18
+    target: 7
+    flow: 25.015993365451752
+  - vnr_id: 2245
+    source: 19
+    target: 22
+    flow: 22.987669579063773
+  - vnr_id: 2245
+    source: 18
+    target: 14
+    flow: 19.607129935083808
+  - vnr_id: 2245
+    source: 11
+    target: 14
+    flow: 18.931022006287815
+  - vnr_id: 2245
+    source: 22
+    target: 19
+    flow: 18.254914077491822
+  - vnr_id: 2245
+    source: 18
+    target: 10
+    flow: 18.254914077491822
+  - vnr_id: 2245
+    source: 23
+    target: 18
+    flow: 17.578806148695826
+  - vnr_id: 2245
+    source: 22
+    target: 18
+    flow: 14.874374433511854
+  - vnr_id: 2245
+    source: 10
+    target: 12
+    flow: 12.16994271832788
+  - vnr_id: 2245
+    source: 13
+    target: 22
+    flow: 10.817726860735894
+  - vnr_id: 2245
+    source: 22
+    target: 12
+    flow: 10.817726860735894
+  - vnr_id: 2245
+    source: 14
+    target: 18
+    flow: 7.437187216755927
+  - vnr_id: 2245
+    source: 18
+    target: 22
+    flow: 4.05664757277596
+  - vnr_id: 2245
+    source: 10
+    target: 18
+    flow: 4.05664757277596
+  - vnr_id: 2245
+    source: 18
+    target: 23
+    flow: 0.6761079287959934
+  - vnr_id: 1463
+    source: 6
+    target: 5
+    flow: 44.26750592065849
+  - vnr_id: 1463
+    source: 5
+    target: 6
+    flow: 42.49680568383215
+  - vnr_id: 1463
+    source: 6
+    target: 23
+    flow: 27.445853670808262
+  - vnr_id: 1463
+    source: 18
+    target: 21
+    flow: 23.904453197155583
+  - vnr_id: 1463
+    source: 18
+    target: 23
+    flow: 22.133752960329247
+  - vnr_id: 1463
+    source: 23
+    target: 6
+    flow: 17.707002368263396
+  - vnr_id: 1463
+    source: 7
+    target: 6
+    flow: 15.050952013023887
+  - vnr_id: 1463
+    source: 21
+    target: 18
+    flow: 14.165601894610717
+  - vnr_id: 1463
+    source: 23
+    target: 18
+    flow: 11.509551539371207
+  - vnr_id: 1463
+    source: 6
+    target: 7
+    flow: 6.197450828892189
+  - vnr_id: 1463
+    source: 5
+    target: 7
+    flow: 3.541400473652679
+  - vnr_id: 1463
+    source: 7
+    target: 5
+    flow: 1.7707002368263396
+  global_link_flow:
+  - source: 18
+    target: 2
+    flow: 27.30917984891549
+  - source: 15
+    target: 22
+    flow: 45.92907520044878
+  - source: 22
+    target: 2
+    flow: 46.54973837883322
+  - source: 23
+    target: 12
+    flow: 53.27850489522099
+  - source: 2
+    target: 18
+    flow: 21.102548065071062
+  - source: 2
+    target: 22
+    flow: 30.412495740837706
+  - source: 22
+    target: 15
+    flow: 27.30917984891549
+  - source: 18
+    target: 7
+    flow: 41.15323600344727
+  - source: 12
+    target: 18
+    flow: 15.516579459611075
+  - source: 12
+    target: 23
+    flow: 43.96855721945435
+  - source: 18
+    target: 12
+    flow: 41.59679400673967
+  - source: 7
+    target: 18
+    flow: 31.666183152588587
+  - source: 21
+    target: 7
+    flow: 1.241326356768886
+  - source: 7
+    target: 21
+    flow: 0.0
+  - source: 14
+    target: 11
+    flow: 33.805396439799665
+  - source: 11
+    target: 22
+    flow: 33.12928851100367
+  - source: 12
+    target: 19
+    flow: 60.17360566284341
+  - source: 19
+    target: 12
+    flow: 35.83372022618765
+  - source: 22
+    target: 11
+    flow: 29.072640938227714
+  - source: 12
+    target: 22
+    flow: 25.69210129424775
+  - source: 22
+    target: 13
+    flow: 25.69210129424775
+  - source: 12
+    target: 10
+    flow: 25.015993365451752
+  - source: 19
+    target: 22
+    flow: 22.987669579063773
+  - source: 18
+    target: 14
+    flow: 19.607129935083808
+  - source: 11
+    target: 14
+    flow: 18.931022006287815
+  - source: 22
+    target: 19
+    flow: 18.254914077491822
+  - source: 18
+    target: 10
+    flow: 18.254914077491822
+  - source: 23
+    target: 18
+    flow: 29.088357688067035
+  - source: 22
+    target: 18
+    flow: 14.874374433511854
+  - source: 10
+    target: 12
+    flow: 12.16994271832788
+  - source: 13
+    target: 22
+    flow: 10.817726860735894
+  - source: 22
+    target: 12
+    flow: 10.817726860735894
+  - source: 14
+    target: 18
+    flow: 7.437187216755927
+  - source: 18
+    target: 22
+    flow: 4.05664757277596
+  - source: 10
+    target: 18
+    flow: 4.05664757277596
+  - source: 18
+    target: 23
+    flow: 22.80986088912524
+  - source: 6
+    target: 5
+    flow: 44.26750592065849
+  - source: 5
+    target: 6
+    flow: 42.49680568383215
+  - source: 6
+    target: 23
+    flow: 27.445853670808262
+  - source: 18
+    target: 21
+    flow: 23.904453197155583
+  - source: 23
+    target: 6
+    flow: 17.707002368263396
+  - source: 7
+    target: 6
+    flow: 15.050952013023887
+  - source: 21
+    target: 18
+    flow: 14.165601894610717
+  - source: 6
+    target: 7
+    flow: 6.197450828892189
+  - source: 5
+    target: 7
+    flow: 3.541400473652679
+  - source: 7
+    target: 5
+    flow: 1.7707002368263396

@@ -1,0 +1,14 @@
+{
+  "requests": 4002,
+  "successes": 2055,
+  "acceptance_ratio": 0.5134932533733133,
+  "mean_terminal_reward": 0.2634101851768524,
+  "action_selection": "greedy_argmax",
+  "failure_reasons": {
+    "EO directed link mapping failed": 626,
+    "no directed-feasible action": 1295,
+    "no feasible action": 26
+  },
+  "dataset": "training_event_files",
+  "in_sample": true
+}

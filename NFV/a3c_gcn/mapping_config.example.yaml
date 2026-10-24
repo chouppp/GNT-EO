@@ -1,0 +1,14 @@
+# All file/directory paths below are relative to the project root.
+# Database connection: edit database.ini (shared by all algorithms).
+
+checkpoint: NFV/a3c_gcn/checkpoints/a3c_gcn_actor_best.pt
+event_file: NFV/Random_event_generator/vnr_events.yaml
+vnet_dir: NFV/vnet_dataset
+filename_pattern: vinre0.5_node_{vnr_id}.yaml
+output_dir: NFV/result_storage/A3C_GCN
+distance_limit: 10.0
+# 100 matches training. null loads ALL database paths, like nfv_realtime;
+# full loading may take substantial time and memory.
+max_paths_per_pair: 100
+time_window: 100
+inference_threads: 1

@@ -1,0 +1,173 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 7
+  num_edges 18
+
+  node [
+    id 0
+    label "0"
+    pos 24.461288
+    pos 23.855279
+    cpu 5
+    max_cpu 5
+  ]
+  node [
+    id 1
+    label "1"
+    pos 12.342062
+    pos 19.214026
+    cpu 14
+    max_cpu 14
+  ]
+  node [
+    id 2
+    label "2"
+    pos 24.010198
+    pos 9.609800
+    cpu 17
+    max_cpu 17
+  ]
+  node [
+    id 3
+    label "3"
+    pos 4.192249
+    pos 20.667136
+    cpu 10
+    max_cpu 10
+  ]
+  node [
+    id 4
+    label "4"
+    pos 16.406772
+    pos 15.071888
+    cpu 11
+    max_cpu 11
+  ]
+  node [
+    id 5
+    label "5"
+    pos 7.114744
+    pos 13.369006
+    cpu 5
+    max_cpu 5
+  ]
+  node [
+    id 6
+    label "6"
+    pos 1.358174
+    pos 14.601056
+    cpu 19
+    max_cpu 19
+  ]
+
+  edge [
+    source 0
+    target 4
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 1
+    target 3
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 1
+    target 4
+    bw 35
+    max_bw 35
+  ]
+  edge [
+    source 1
+    target 5
+    bw 45
+    max_bw 45
+  ]
+  edge [
+    source 1
+    target 6
+    bw 30
+    max_bw 30
+  ]
+  edge [
+    source 2
+    target 3
+    bw 30
+    max_bw 30
+  ]
+  edge [
+    source 2
+    target 4
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 3
+    target 1
+    bw 25
+    max_bw 25
+  ]
+  edge [
+    source 3
+    target 2
+    bw 34
+    max_bw 34
+  ]
+  edge [
+    source 3
+    target 5
+    bw 19
+    max_bw 19
+  ]
+  edge [
+    source 3
+    target 6
+    bw 26
+    max_bw 26
+  ]
+  edge [
+    source 4
+    target 0
+    bw 28
+    max_bw 28
+  ]
+  edge [
+    source 4
+    target 1
+    bw 25
+    max_bw 25
+  ]
+  edge [
+    source 4
+    target 2
+    bw 27
+    max_bw 27
+  ]
+  edge [
+    source 5
+    target 1
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 5
+    target 3
+    bw 29
+    max_bw 29
+  ]
+  edge [
+    source 6
+    target 1
+    bw 23
+    max_bw 23
+  ]
+  edge [
+    source 6
+    target 3
+    bw 46
+    max_bw 46
+  ]
+]

@@ -1,0 +1,818 @@
+- id: 1
+  vnr_ind: 1430
+  event_id: 0
+  event_time: 41.0203
+  links:
+  - source: 14
+    target: 12
+    bw: 49.0
+    linkpath:
+    - - 14
+      - 1
+    - - 1
+      - 12
+  - source: 10
+    target: 7
+    bw: 48.0
+    linkpath:
+    - - 10
+      - 2
+    - - 2
+      - 7
+  - source: 5
+    target: 17
+    bw: 46.0
+    linkpath:
+    - - 5
+      - 3
+    - - 3
+      - 17
+  - source: 10
+    target: 22
+    bw: 42.0
+    linkpath:
+    - - 10
+      - 2
+    - - 2
+      - 22
+  - source: 18
+    target: 7
+    bw: 35.0
+    linkpath:
+    - - 18
+      - 7
+  - source: 7
+    target: 17
+    bw: 34.0
+    linkpath:
+    - - 7
+      - 17
+  - source: 7
+    target: 20
+    bw: 32.0
+    linkpath:
+    - - 7
+      - 20
+  - source: 12
+    target: 14
+    bw: 26.0
+    linkpath:
+    - - 12
+      - 5
+    - - 5
+      - 14
+  - source: 22
+    target: 18
+    bw: 26.0
+    linkpath:
+    - - 22
+      - 18
+  - source: 17
+    target: 7
+    bw: 20.0
+    linkpath:
+    - - 17
+      - 7
+  - source: 22
+    target: 10
+    bw: 17.0
+    linkpath:
+    - - 22
+      - 2
+    - - 2
+      - 10
+  - source: 7
+    target: 10
+    bw: 15.0
+    linkpath:
+    - - 7
+      - 11
+    - - 11
+      - 10
+  - source: 10
+    target: 12
+    bw: 14.0
+    linkpath:
+    - - 10
+      - 12
+  - source: 12
+    target: 10
+    bw: 8.0
+    linkpath:
+    - - 12
+      - 10
+  - source: 18
+    target: 22
+    bw: 7.0
+    linkpath:
+    - - 18
+      - 22
+  - source: 17
+    target: 5
+    bw: 3.0
+    linkpath:
+    - - 17
+      - 7
+    - - 7
+      - 5
+  - source: 7
+    target: 18
+    bw: 2.0
+    linkpath:
+    - - 7
+      - 18
+  - source: 20
+    target: 7
+    bw: 2.0
+    linkpath:
+    - - 20
+      - 7
+- id: 2
+  vnr_ind: 697
+  event_id: 2
+  event_time: 58.1786
+  links:
+  - source: 3
+    target: 8
+    bw: 26.0
+    linkpath:
+    - - 3
+      - 8
+  - source: 8
+    target: 3
+    bw: 11.0
+    linkpath:
+    - - 8
+      - 3
+- id: 3
+  vnr_ind: 2442
+  event_id: 4
+  event_time: 59.86
+  links:
+  - source: 16
+    target: 2
+    bw: 50.0
+    linkpath:
+    - - 16
+      - 1
+    - - 1
+      - 2
+  - source: 6
+    target: 8
+    bw: 36.0
+    linkpath:
+    - - 6
+      - 5
+    - - 5
+      - 8
+  - source: 16
+    target: 15
+    bw: 23.0
+    linkpath:
+    - - 16
+      - 22
+    - - 22
+      - 15
+  - source: 6
+    target: 2
+    bw: 19.0
+    linkpath:
+    - - 6
+      - 2
+  - source: 2
+    target: 6
+    bw: 12.0
+    linkpath:
+    - - 2
+      - 6
+  - source: 15
+    target: 16
+    bw: 9.0
+    linkpath:
+    - - 15
+      - 22
+    - - 22
+      - 16
+  - source: 2
+    target: 16
+    bw: 6.0
+    linkpath:
+    - - 2
+      - 22
+    - - 22
+      - 16
+  - source: 8
+    target: 6
+    bw: 6.0
+    linkpath:
+    - - 8
+      - 5
+    - - 5
+      - 6
+- id: 4
+  vnr_ind: 557
+  event_id: 6
+  event_time: 81.3865
+  links:
+  - source: 6
+    target: 13
+    bw: 49.0
+    linkpath:
+    - - 6
+      - 13
+  - source: 9
+    target: 6
+    bw: 39.0
+    linkpath:
+    - - 9
+      - 6
+  - source: 13
+    target: 10
+    bw: 37.0
+    linkpath:
+    - - 13
+      - 6
+    - - 6
+      - 2
+    - - 2
+      - 10
+  - source: 6
+    target: 10
+    bw: 35.0
+    linkpath:
+    - - 6
+      - 21
+    - - 21
+      - 10
+  - source: 10
+    target: 6
+    bw: 8.0
+    linkpath:
+    - - 10
+      - 21
+    - - 21
+      - 6
+  - source: 10
+    target: 13
+    bw: 7.0
+    linkpath:
+    - - 10
+      - 19
+    - - 19
+      - 22
+    - - 22
+      - 13
+  - source: 6
+    target: 9
+    bw: 3.0
+    linkpath:
+    - - 6
+      - 9
+  - source: 13
+    target: 6
+    bw: 1.0
+    linkpath:
+    - - 13
+      - 6
+- id: 5
+  vnr_ind: 1991
+  event_id: 8
+  event_time: 84.4471
+  links:
+  - source: 16
+    target: 14
+    bw: 47.0
+    linkpath:
+    - - 16
+      - 14
+  - source: 18
+    target: 14
+    bw: 43.0
+    linkpath:
+    - - 18
+      - 14
+  - source: 21
+    target: 16
+    bw: 28.0
+    linkpath:
+    - - 21
+      - 16
+  - source: 16
+    target: 5
+    bw: 26.0
+    linkpath:
+    - - 16
+      - 6
+    - - 6
+      - 5
+  - source: 16
+    target: 21
+    bw: 13.0
+    linkpath:
+    - - 16
+      - 21
+  - source: 14
+    target: 16
+    bw: 13.0
+    linkpath:
+    - - 14
+      - 16
+  - source: 5
+    target: 16
+    bw: 9.0
+    linkpath:
+    - - 5
+      - 4
+    - - 4
+      - 16
+  - source: 14
+    target: 18
+    bw: 2.0
+    linkpath:
+    - - 14
+      - 18
+- id: 6
+  vnr_ind: 3797
+  event_id: 10
+  event_time: 87.5995
+  links:
+  - source: 10
+    target: 22
+    bw: 48.0
+    linkpath:
+    - - 10
+      - 11
+    - - 11
+      - 22
+  - source: 19
+    target: 22
+    bw: 40.0
+    linkpath:
+    - - 19
+      - 22
+  - source: 12
+    target: 22
+    bw: 35.0
+    linkpath:
+    - - 12
+      - 22
+  - source: 22
+    target: 10
+    bw: 34.0
+    linkpath:
+    - - 22
+      - 2
+    - - 2
+      - 10
+  - source: 22
+    target: 19
+    bw: 34.0
+    linkpath:
+    - - 22
+      - 19
+  - source: 22
+    target: 12
+    bw: 9.0
+    linkpath:
+    - - 22
+      - 12
+- id: 7
+  vnr_ind: 1416
+  event_id: 12
+  event_time: 117.8112
+  links:
+  - source: 2
+    target: 4
+    bw: 50.0
+    linkpath:
+    - - 2
+      - 4
+  - source: 2
+    target: 20
+    bw: 49.0
+    linkpath:
+    - - 2
+      - 1
+    - - 1
+      - 20
+  - source: 4
+    target: 2
+    bw: 43.0
+    linkpath:
+    - - 4
+      - 2
+  - source: 4
+    target: 16
+    bw: 41.0
+    linkpath:
+    - - 4
+      - 16
+  - source: 14
+    target: 16
+    bw: 38.0
+    linkpath:
+    - - 14
+      - 16
+  - source: 20
+    target: 2
+    bw: 32.0
+    linkpath:
+    - - 20
+      - 7
+    - - 7
+      - 2
+  - source: 16
+    target: 2
+    bw: 31.0
+    linkpath:
+    - - 16
+      - 4
+    - - 4
+      - 2
+  - source: 23
+    target: 16
+    bw: 30.0
+    linkpath:
+    - - 23
+      - 6
+    - - 6
+      - 16
+  - source: 16
+    target: 14
+    bw: 29.0
+    linkpath:
+    - - 16
+      - 21
+    - - 21
+      - 14
+  - source: 16
+    target: 8
+    bw: 21.0
+    linkpath:
+    - - 16
+      - 4
+    - - 4
+      - 8
+  - source: 8
+    target: 16
+    bw: 15.0
+    linkpath:
+    - - 8
+      - 4
+    - - 4
+      - 16
+  - source: 16
+    target: 23
+    bw: 13.0
+    linkpath:
+    - - 16
+      - 6
+    - - 6
+      - 23
+  - source: 16
+    target: 4
+    bw: 11.0
+    linkpath:
+    - - 16
+      - 4
+  - source: 8
+    target: 17
+    bw: 10.0
+    linkpath:
+    - - 8
+      - 3
+    - - 3
+      - 17
+  - source: 17
+    target: 8
+    bw: 6.0
+    linkpath:
+    - - 17
+      - 3
+    - - 3
+      - 8
+  - source: 2
+    target: 16
+    bw: 2.0
+    linkpath:
+    - - 2
+      - 22
+    - - 22
+      - 16
+- id: 8
+  vnr_ind: 206
+  event_id: 14
+  event_time: 147.6004
+  links:
+  - source: 23
+    target: 10
+    bw: 45.0
+    linkpath:
+    - - 23
+      - 12
+    - - 12
+      - 10
+  - source: 9
+    target: 15
+    bw: 44.0
+    linkpath:
+    - - 9
+      - 22
+    - - 22
+      - 15
+  - source: 3
+    target: 13
+    bw: 42.0
+    linkpath:
+    - - 3
+      - 18
+    - - 18
+      - 22
+    - - 22
+      - 13
+  - source: 9
+    target: 13
+    bw: 42.0
+    linkpath:
+    - - 9
+      - 13
+  - source: 8
+    target: 20
+    bw: 42.0
+    linkpath:
+    - - 8
+      - 20
+  - source: 21
+    target: 9
+    bw: 42.0
+    linkpath:
+    - - 21
+      - 20
+    - - 20
+      - 9
+  - source: 13
+    target: 9
+    bw: 41.0
+    linkpath:
+    - - 13
+      - 9
+  - source: 15
+    target: 21
+    bw: 40.0
+    linkpath:
+    - - 15
+      - 20
+    - - 20
+      - 21
+  - source: 23
+    target: 20
+    bw: 39.0
+    linkpath:
+    - - 23
+      - 17
+    - - 17
+      - 20
+  - source: 20
+    target: 10
+    bw: 39.0
+    linkpath:
+    - - 20
+      - 11
+    - - 11
+      - 10
+  - source: 15
+    target: 20
+    bw: 35.0
+    linkpath:
+    - - 15
+      - 20
+  - source: 20
+    target: 8
+    bw: 35.0
+    linkpath:
+    - - 20
+      - 8
+  - source: 10
+    target: 20
+    bw: 32.0
+    linkpath:
+    - - 10
+      - 19
+    - - 19
+      - 20
+  - source: 20
+    target: 15
+    bw: 31.0
+    linkpath:
+    - - 20
+      - 15
+  - source: 13
+    target: 8
+    bw: 22.0
+    linkpath:
+    - - 13
+      - 6
+    - - 6
+      - 20
+    - - 20
+      - 8
+  - source: 10
+    target: 23
+    bw: 21.0
+    linkpath:
+    - - 10
+      - 18
+    - - 18
+      - 23
+  - source: 13
+    target: 3
+    bw: 20.0
+    linkpath:
+    - - 13
+      - 23
+    - - 23
+      - 17
+    - - 17
+      - 3
+  - source: 13
+    target: 10
+    bw: 18.0
+    linkpath:
+    - - 13
+      - 22
+    - - 22
+      - 12
+    - - 12
+      - 10
+  - source: 20
+    target: 23
+    bw: 17.0
+    linkpath:
+    - - 20
+      - 17
+    - - 17
+      - 23
+  - source: 10
+    target: 13
+    bw: 15.0
+    linkpath:
+    - - 10
+      - 19
+    - - 19
+      - 22
+    - - 22
+      - 13
+  - source: 9
+    target: 21
+    bw: 6.0
+    linkpath:
+    - - 9
+      - 6
+    - - 6
+      - 21
+  - source: 15
+    target: 9
+    bw: 5.0
+    linkpath:
+    - - 15
+      - 20
+    - - 20
+      - 9
+  - source: 21
+    target: 15
+    bw: 2.0
+    linkpath:
+    - - 21
+      - 20
+    - - 20
+      - 15
+- id: 9
+  vnr_ind: 3040
+  event_id: 16
+  event_time: 151.2056
+  links:
+  - source: 12
+    target: 15
+    bw: 40.0
+    linkpath:
+    - - 12
+      - 15
+  - source: 15
+    target: 5
+    bw: 28.0
+    linkpath:
+    - - 15
+      - 12
+    - - 12
+      - 5
+  - source: 15
+    target: 12
+    bw: 13.0
+    linkpath:
+    - - 15
+      - 12
+  - source: 5
+    target: 15
+    bw: 10.0
+    linkpath:
+    - - 5
+      - 18
+    - - 18
+      - 15
+- id: 10
+  vnr_ind: 1517
+  event_id: 18
+  event_time: 178.0579
+  links:
+  - source: 17
+    target: 21
+    bw: 40.0
+    linkpath:
+    - - 17
+      - 7
+    - - 7
+      - 21
+  - source: 8
+    target: 0
+    bw: 36.0
+    linkpath:
+    - - 8
+      - 3
+    - - 3
+      - 0
+  - source: 0
+    target: 6
+    bw: 35.0
+    linkpath:
+    - - 0
+      - 5
+    - - 5
+      - 6
+  - source: 8
+    target: 14
+    bw: 27.0
+    linkpath:
+    - - 8
+      - 4
+    - - 4
+      - 14
+  - source: 14
+    target: 11
+    bw: 25.0
+    linkpath:
+    - - 14
+      - 11
+  - source: 11
+    target: 14
+    bw: 17.0
+    linkpath:
+    - - 11
+      - 14
+  - source: 6
+    target: 0
+    bw: 17.0
+    linkpath:
+    - - 6
+      - 21
+    - - 21
+      - 0
+  - source: 14
+    target: 8
+    bw: 17.0
+    linkpath:
+    - - 14
+      - 11
+    - - 11
+      - 8
+  - source: 21
+    target: 17
+    bw: 11.0
+    linkpath:
+    - - 21
+      - 20
+    - - 20
+      - 17
+  - source: 0
+    target: 8
+    bw: 10.0
+    linkpath:
+    - - 0
+      - 11
+    - - 11
+      - 8
+  - source: 21
+    target: 11
+    bw: 9.0
+    linkpath:
+    - - 21
+      - 0
+    - - 0
+      - 11
+  - source: 11
+    target: 21
+    bw: 7.0
+    linkpath:
+    - - 11
+      - 0
+    - - 0
+      - 21

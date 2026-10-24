@@ -1,0 +1,149 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 7
+  num_edges 14
+
+  node [
+    id 0
+    label "0"
+    pos 16.465665
+    pos 9.216667
+    cpu 19
+    max_cpu 19
+  ]
+  node [
+    id 1
+    label "1"
+    pos 22.219254
+    pos 10.010215
+    cpu 13
+    max_cpu 13
+  ]
+  node [
+    id 2
+    label "2"
+    pos 21.378647
+    pos 11.894649
+    cpu 5
+    max_cpu 5
+  ]
+  node [
+    id 3
+    label "3"
+    pos 10.064580
+    pos 16.494964
+    cpu 17
+    max_cpu 17
+  ]
+  node [
+    id 4
+    label "4"
+    pos 24.273575
+    pos 11.448749
+    cpu 20
+    max_cpu 20
+  ]
+  node [
+    id 5
+    label "5"
+    pos 10.956098
+    pos 22.286326
+    cpu 3
+    max_cpu 3
+  ]
+  node [
+    id 6
+    label "6"
+    pos 22.297767
+    pos 19.212227
+    cpu 5
+    max_cpu 5
+  ]
+
+  edge [
+    source 0
+    target 2
+    bw 0
+    max_bw 0
+  ]
+  edge [
+    source 1
+    target 2
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 1
+    target 4
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 1
+    target 6
+    bw 11
+    max_bw 11
+  ]
+  edge [
+    source 2
+    target 0
+    bw 45
+    max_bw 45
+  ]
+  edge [
+    source 2
+    target 1
+    bw 10
+    max_bw 10
+  ]
+  edge [
+    source 2
+    target 4
+    bw 36
+    max_bw 36
+  ]
+  edge [
+    source 3
+    target 5
+    bw 23
+    max_bw 23
+  ]
+  edge [
+    source 4
+    target 1
+    bw 33
+    max_bw 33
+  ]
+  edge [
+    source 4
+    target 2
+    bw 41
+    max_bw 41
+  ]
+  edge [
+    source 5
+    target 3
+    bw 1
+    max_bw 1
+  ]
+  edge [
+    source 5
+    target 6
+    bw 21
+    max_bw 21
+  ]
+  edge [
+    source 6
+    target 1
+    bw 25
+    max_bw 25
+  ]
+  edge [
+    source 6
+    target 5
+    bw 7
+    max_bw 7
+  ]
+]

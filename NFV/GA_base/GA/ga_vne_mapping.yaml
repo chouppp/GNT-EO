@@ -1,0 +1,345 @@
+- id: 1
+  vnr_ind: 2188
+  event_id: 0
+  event_time: 25.9961
+  links:
+  - source: 18
+    target: 2
+    bw: 44.0
+    linkpath:
+    - - 18
+      - 2
+  - source: 15
+    target: 2
+    bw: 40.0
+    linkpath:
+    - - 15
+      - 22
+    - - 22
+      - 2
+  - source: 23
+    target: 12
+    bw: 39.0
+    linkpath:
+    - - 23
+      - 12
+  - source: 22
+    target: 2
+    bw: 35.0
+    linkpath:
+    - - 22
+      - 2
+  - source: 15
+    target: 22
+    bw: 34.0
+    linkpath:
+    - - 15
+      - 22
+  - source: 2
+    target: 18
+    bw: 34.0
+    linkpath:
+    - - 2
+      - 18
+  - source: 2
+    target: 22
+    bw: 31.0
+    linkpath:
+    - - 2
+      - 22
+  - source: 22
+    target: 15
+    bw: 26.0
+    linkpath:
+    - - 22
+      - 15
+  - source: 18
+    target: 7
+    bw: 26.0
+    linkpath:
+    - - 18
+      - 7
+  - source: 12
+    target: 18
+    bw: 25.0
+    linkpath:
+    - - 12
+      - 18
+  - source: 12
+    target: 23
+    bw: 24.0
+    linkpath:
+    - - 12
+      - 23
+  - source: 18
+    target: 12
+    bw: 18.0
+    linkpath:
+    - - 18
+      - 12
+  - source: 2
+    target: 15
+    bw: 18.0
+    linkpath:
+    - - 2
+      - 22
+    - - 22
+      - 15
+  - source: 7
+    target: 18
+    bw: 2.0
+    linkpath:
+    - - 7
+      - 18
+  - source: 21
+    target: 7
+    bw: 2.0
+    linkpath:
+    - - 21
+      - 7
+  - source: 7
+    target: 21
+    bw: 0.0
+    linkpath:
+    - - 7
+      - 21
+- id: 2
+  vnr_ind: 2245
+  event_id: 2
+  event_time: 61.902
+  links:
+  - source: 14
+    target: 11
+    bw: 50.0
+    linkpath:
+    - - 14
+      - 11
+  - source: 11
+    target: 22
+    bw: 49.0
+    linkpath:
+    - - 11
+      - 22
+  - source: 12
+    target: 19
+    bw: 46.0
+    linkpath:
+    - - 12
+      - 19
+  - source: 18
+    target: 12
+    bw: 45.0
+    linkpath:
+    - - 18
+      - 12
+  - source: 7
+    target: 18
+    bw: 45.0
+    linkpath:
+    - - 7
+      - 18
+  - source: 19
+    target: 23
+    bw: 43.0
+    linkpath:
+    - - 19
+      - 12
+    - - 12
+      - 23
+  - source: 23
+    target: 19
+    bw: 43.0
+    linkpath:
+    - - 23
+      - 12
+    - - 12
+      - 19
+  - source: 22
+    target: 11
+    bw: 43.0
+    linkpath:
+    - - 22
+      - 11
+  - source: 12
+    target: 13
+    bw: 38.0
+    linkpath:
+    - - 12
+      - 22
+    - - 22
+      - 13
+  - source: 12
+    target: 10
+    bw: 37.0
+    linkpath:
+    - - 12
+      - 10
+  - source: 18
+    target: 7
+    bw: 37.0
+    linkpath:
+    - - 18
+      - 7
+  - source: 19
+    target: 22
+    bw: 34.0
+    linkpath:
+    - - 19
+      - 22
+  - source: 18
+    target: 14
+    bw: 29.0
+    linkpath:
+    - - 18
+      - 14
+  - source: 11
+    target: 14
+    bw: 28.0
+    linkpath:
+    - - 11
+      - 14
+  - source: 22
+    target: 19
+    bw: 27.0
+    linkpath:
+    - - 22
+      - 19
+  - source: 18
+    target: 10
+    bw: 27.0
+    linkpath:
+    - - 18
+      - 10
+  - source: 23
+    target: 18
+    bw: 26.0
+    linkpath:
+    - - 23
+      - 18
+  - source: 22
+    target: 18
+    bw: 22.0
+    linkpath:
+    - - 22
+      - 18
+  - source: 10
+    target: 12
+    bw: 18.0
+    linkpath:
+    - - 10
+      - 12
+  - source: 13
+    target: 12
+    bw: 16.0
+    linkpath:
+    - - 13
+      - 22
+    - - 22
+      - 12
+  - source: 14
+    target: 18
+    bw: 11.0
+    linkpath:
+    - - 14
+      - 18
+  - source: 19
+    target: 12
+    bw: 10.0
+    linkpath:
+    - - 19
+      - 12
+  - source: 18
+    target: 22
+    bw: 6.0
+    linkpath:
+    - - 18
+      - 22
+  - source: 10
+    target: 18
+    bw: 6.0
+    linkpath:
+    - - 10
+      - 18
+  - source: 18
+    target: 23
+    bw: 1.0
+    linkpath:
+    - - 18
+      - 23
+- id: 3
+  vnr_ind: 1463
+  event_id: 4
+  event_time: 69.1947
+  links:
+  - source: 6
+    target: 5
+    bw: 50.0
+    linkpath:
+    - - 6
+      - 5
+  - source: 5
+    target: 6
+    bw: 48.0
+    linkpath:
+    - - 5
+      - 6
+  - source: 6
+    target: 23
+    bw: 31.0
+    linkpath:
+    - - 6
+      - 23
+  - source: 18
+    target: 21
+    bw: 27.0
+    linkpath:
+    - - 18
+      - 21
+  - source: 18
+    target: 23
+    bw: 25.0
+    linkpath:
+    - - 18
+      - 23
+  - source: 23
+    target: 6
+    bw: 20.0
+    linkpath:
+    - - 23
+      - 6
+  - source: 7
+    target: 6
+    bw: 17.0
+    linkpath:
+    - - 7
+      - 6
+  - source: 21
+    target: 18
+    bw: 16.0
+    linkpath:
+    - - 21
+      - 18
+  - source: 23
+    target: 18
+    bw: 13.0
+    linkpath:
+    - - 23
+      - 18
+  - source: 6
+    target: 7
+    bw: 7.0
+    linkpath:
+    - - 6
+      - 7
+  - source: 5
+    target: 7
+    bw: 4.0
+    linkpath:
+    - - 5
+      - 7
+  - source: 7
+    target: 5
+    bw: 2.0
+    linkpath:
+    - - 7
+      - 5

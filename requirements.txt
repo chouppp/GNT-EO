@@ -1,0 +1,34 @@
+# Install from the project root: python -m pip install -r requirements.txt
+# Direct dependencies used by the project; this is not a version-locked environment.
+
+# Numerical computing and data processing
+numpy
+scipy
+pandas
+
+# Plotting and terminal tables
+matplotlib
+seaborn
+rich
+
+# Network topology and YAML configuration
+networkx
+PyYAML
+
+# MySQL client; RSA support covers MySQL SHA-256 authentication methods.
+PyMySQL[rsa]
+
+# Mathematical optimization
+pyomo
+# GLPK is installed externally. Make glpsol available on PATH.
+# The MySQL server is also installed and configured separately.
+
+# LSTM models
+tensorflow
+
+# A3C-GCN models
+torch
+torch-geometric
+
+# Test runner
+pytest

@@ -1,0 +1,227 @@
+graph [
+  topology [
+    type "waxman"
+  ]
+  num_nodes 10
+  num_edges 23
+
+  node [
+    id 0
+    label "0"
+    pos 15.428646
+    pos 12.144593
+    cpu 2
+    max_cpu 2
+  ]
+  node [
+    id 1
+    label "1"
+    pos 17.448015
+    pos 13.864923
+    cpu 14
+    max_cpu 14
+  ]
+  node [
+    id 2
+    label "2"
+    pos 21.362995
+    pos 8.541650
+    cpu 11
+    max_cpu 11
+  ]
+  node [
+    id 3
+    label "3"
+    pos 8.023999
+    pos 10.363437
+    cpu 14
+    max_cpu 14
+  ]
+  node [
+    id 4
+    label "4"
+    pos 18.128803
+    pos 20.338769
+    cpu 15
+    max_cpu 15
+  ]
+  node [
+    id 5
+    label "5"
+    pos 18.392299
+    pos 2.901161
+    cpu 14
+    max_cpu 14
+  ]
+  node [
+    id 6
+    label "6"
+    pos 5.422029
+    pos 3.233170
+    cpu 20
+    max_cpu 20
+  ]
+  node [
+    id 7
+    label "7"
+    pos 11.100271
+    pos 18.832362
+    cpu 20
+    max_cpu 20
+  ]
+  node [
+    id 8
+    label "8"
+    pos 23.808654
+    pos 7.338093
+    cpu 9
+    max_cpu 9
+  ]
+  node [
+    id 9
+    label "9"
+    pos 4.825360
+    pos 24.455933
+    cpu 5
+    max_cpu 5
+  ]
+
+  edge [
+    source 0
+    target 5
+    bw 25
+    max_bw 25
+  ]
+  edge [
+    source 0
+    target 3
+    bw 4
+    max_bw 4
+  ]
+  edge [
+    source 1
+    target 4
+    bw 45
+    max_bw 45
+  ]
+  edge [
+    source 1
+    target 5
+    bw 41
+    max_bw 41
+  ]
+  edge [
+    source 1
+    target 7
+    bw 33
+    max_bw 33
+  ]
+  edge [
+    source 2
+    target 5
+    bw 15
+    max_bw 15
+  ]
+  edge [
+    source 2
+    target 8
+    bw 23
+    max_bw 23
+  ]
+  edge [
+    source 3
+    target 5
+    bw 43
+    max_bw 43
+  ]
+  edge [
+    source 3
+    target 6
+    bw 6
+    max_bw 6
+  ]
+  edge [
+    source 4
+    target 1
+    bw 23
+    max_bw 23
+  ]
+  edge [
+    source 5
+    target 0
+    bw 30
+    max_bw 30
+  ]
+  edge [
+    source 5
+    target 1
+    bw 21
+    max_bw 21
+  ]
+  edge [
+    source 5
+    target 2
+    bw 13
+    max_bw 13
+  ]
+  edge [
+    source 5
+    target 3
+    bw 38
+    max_bw 38
+  ]
+  edge [
+    source 5
+    target 6
+    bw 43
+    max_bw 43
+  ]
+  edge [
+    source 5
+    target 8
+    bw 18
+    max_bw 18
+  ]
+  edge [
+    source 6
+    target 3
+    bw 17
+    max_bw 17
+  ]
+  edge [
+    source 6
+    target 5
+    bw 49
+    max_bw 49
+  ]
+  edge [
+    source 7
+    target 1
+    bw 12
+    max_bw 12
+  ]
+  edge [
+    source 7
+    target 9
+    bw 33
+    max_bw 33
+  ]
+  edge [
+    source 8
+    target 2
+    bw 10
+    max_bw 10
+  ]
+  edge [
+    source 8
+    target 5
+    bw 17
+    max_bw 17
+  ]
+  edge [
+    source 9
+    target 7
+    bw 10
+    max_bw 10
+  ]
+]
