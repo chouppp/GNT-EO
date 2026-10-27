@@ -158,5 +158,5 @@ if __name__ == "__main__":
     edges = load_edges_from_custom_yaml("p_net.yaml")
     print("读取到边数量:", len(edges))
     insert_edges_into_db(edges)
-    # nodes = load_nodes_from_file("p_net.yaml")  # Parse nodes.
-    # insert_nodes_into_db(nodes)  # Write to the database.
+    nodes = load_nodes_from_file("p_net.yaml")  # Parse nodes.
+    insert_nodes_into_db(nodes)  # Write to the database.

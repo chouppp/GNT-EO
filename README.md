@@ -47,36 +47,33 @@ The result should be `True`. Install and start the MySQL server separately.
 
 ## 2. Configure the database
 
-All current algorithm entrypoints read `database.ini` from the project root. If this file already contains your local configuration, keep it. Otherwise, copy `database.example.ini` if available:
+All current algorithm entrypoints read the existing `database.ini` in the project root. Edit this file directly to configure your MySQL connection; no example-file copy or password environment variable is needed. The filename used by the code is `database.ini`, not `data.ini`.
 
-```powershell
-if (-not (Test-Path .\database.ini)) {
-    Copy-Item .\database.example.ini .\database.ini
-}
-$env:EO_DB_PASSWORD = "YOUR_MYSQL_PASSWORD"
-```
-
-If the example file is unavailable, create `database.ini` with the following content and adjust the connection settings:
+Update the existing `[mysql]` section with your own connection settings:
 
 ```ini
 [mysql]
 host = localhost
 port = 3306
 user = root
-password = YOUR_PASSWORD
+password = YOUR_MYSQL_PASSWORD
 database = YOUR_DATABASE_NAME
 charset = utf8mb4
-password_env = 
+password_env =
 ```
 
-**Configure both the database name and password yourself.** Replace `YOUR_DATABASE_NAME` with the database you created and `YOUR_MYSQL_PASSWORD` with your actual MySQL account password. The project does not assign these values for you. Set the environment variable in the **same PowerShell window** used to launch the experiment; repeat this after opening a new terminal.
+**You must update both `password` and `database` in the existing `database.ini`:**
 
-- Change `database` to select another existing database.
-- Change `host`, `port`, and `user` when connecting to another server or account.
-- With `password_env = EO_DB_PASSWORD`, the password comes from that environment variable. A missing variable causes an error even if `password` is populated.
-- To use a locally stored password instead, leave `password_env` empty and set `password` to the actual password. Do not include that local file in an anonymous submission.
+- `password`: replace `YOUR_MYSQL_PASSWORD` with your actual MySQL account password.
+- `database`: replace `YOUR_DATABASE_NAME` with the actual name of the MySQL database that contains your experiment tables (for Option B, the database into which you import the supplied SQL files).
+- `password_env`: leave it blank (`password_env =`) so the application reads `password` directly from this file.
+
+Changing only the password is not sufficient: the database name must also match your local setup.
+
+- Change `host`, `port`, and `user` as needed for your MySQL server.
 - Restart scripts after changing the configuration; existing connections do not switch automatically.
 - Editing this file does not change the server-side MySQL password.
+- Keep any configuration containing a real password private.
 
 Prepare the database schema and experiment data before running. The main tables are `node_single_table`, `link_single_table`, and `link_table`. Creating an empty database or changing its name in the configuration does not create tables or copy data.
 
@@ -92,9 +89,16 @@ GNT-EO, CEVNE, D-ViNE, GA, and NORD update database resources and traffic during
 
 ### 3.1 Generate a topology or use the supplied SQL data
 
-Choose one of the following setup options:
+**Recommended: Option B, using the supplied pre-generated database.** Use Option A only when you need a newly generated topology. Configure the existing `database.ini` as described in Section 2 before either option.
 
-**Option A: Generate a new topology with Waxman.** `NFV/waxman.py` generates a connected directed Waxman topology. Run it from the `NFV` directory so its output files are placed where the experiment scripts expect them:
+**Option A: Generate a new topology with Waxman.** `NFV/waxman.py` generates a connected directed Waxman topology. First create the target MySQL database and the required empty tables (`node_single_table`, `link_single_table`, and `link_table`); the import scripts do not create the schema. You can use the table definitions from the SQL dumps in Option B. In `NFV/write_to_link_dataset.py`, uncomment the following two lines in the main block so that nodes are imported along with single-hop links:
+
+```python
+nodes = load_nodes_from_file("p_net.yaml")
+insert_nodes_into_db(nodes)
+```
+
+Then run the scripts in this order from the `NFV` directory: **`waxman.py` -> `write_to_link_dataset.py` -> `linkdata_generator.py`**. Start the following block in the project root:
 
 ```powershell
 $ProjectRoot = (Get-Location).Path
@@ -104,14 +108,29 @@ $env:PYTHONPATH = "$ProjectRoot;$env:PYTHONPATH"
 Push-Location (Join-Path $ProjectRoot 'NFV\')
 try {
     & $Python .\waxman.py
+    if ($LASTEXITCODE -ne 0) { throw "Topology generation failed." }
+    & $Python .\write_to_link_dataset.py
+    if ($LASTEXITCODE -ne 0) { throw "Node/link import failed." }
+    & $Python .\linkdata_generator.py
+    if ($LASTEXITCODE -ne 0) { throw "Candidate-path import failed." }
 } finally {
     Pop-Location
 }
 ```
 
-The script writes `NFV/p_net_directed.pkl` and `NFV/p_net.yaml`. Its main block controls parameters such as `num_nodes`, `wm_alpha`, and `wm_beta`. After generating a new topology, prepare matching node, single-hop link, and candidate-path data in MySQL. Generating topology files alone does not populate the database.
+1. `waxman.py` writes `NFV/p_net_directed.pkl` and `NFV/p_net.yaml`. Its main block controls `num_nodes`, `wm_alpha`, and `wm_beta`.
+2. `write_to_link_dataset.py` reads `p_net.yaml` and inserts single-hop links into `link_single_table`; with the two lines above enabled, it also inserts nodes into `node_single_table`.
+3. `linkdata_generator.py` reads `p_net_directed.pkl` and the single-hop bandwidth data, generates candidate paths with a six-hop cutoff, and inserts them into `link_table`.
 
-**Option B: Use the pre-generated database files.** Import all three files in `sql_example/` into your own experiment database:
+The import scripts insert records without clearing existing data. Use empty tables for a new topology to avoid duplicate or mixed topology data. Generating topology files alone does not populate the database.
+
+**Option B (recommended): Use the pre-generated database files.** From the project root, extract the supplied archive:
+
+```powershell
+Expand-Archive -LiteralPath .\sql_example.zip -DestinationPath .\sql_example
+```
+
+If `sql_example/` is already extracted, skip this step. Create or select your own experiment database in your MySQL client, then import all three files below in the listed order:
 
 | File | Contents |
 | --- | --- |
@@ -119,7 +138,7 @@ The script writes `NFV/p_net_directed.pkl` and `NFV/p_net.yaml`. Its main block 
 | `sql_example/link_single_table.sql` | Directed single-hop links and their resources. |
 | `sql_example/link_table.sql` | Pre-generated candidate paths and path resources. |
 
-Select your target database in your MySQL client before importing these files. The dumps contain table-recreation statements, so import into the intended experiment database. Set `database` in `database.ini` to that database's name and configure your own password as described in Section 2. Keep the matching supplied topology file for this option; do not combine the pre-generated SQL data with an unrelated, newly randomized Waxman topology.
+Select your target database in your MySQL client before importing these files. The dumps contain table-recreation statements, so import into the intended experiment database. Set `database` in `database.ini` to that database's name and configure your own password as described in Section 2. For Option B, skip all three generation/import scripts in Option A and keep the matching supplied topology file; do not combine the pre-generated SQL data with an unrelated, newly randomized Waxman topology.
 
 ### 3.2 Required inputs and launch environment
 
@@ -310,7 +329,7 @@ Events: `NFV/NORD/vnr_events.yaml`. Outputs in that directory include `nord_vne_
 | `No module named EO2_test` | Use the documented EO launch block to run the script in `NFV/test`. |
 | Missing `vnr_events.yaml` | Use the correct algorithm working directory; for A3C-GCN, check the YAML configuration. |
 | Missing `glpsol` | Install GLPK externally and add its executable directory to PATH. |
-| Missing `EO_DB_PASSWORD` | Set the variable in the same terminal, or leave `password_env` empty and configure a local password. |
+| Missing `EO_DB_PASSWORD` | In the existing `database.ini`, leave `password_env =` blank and set `password` to your actual MySQL password. |
 | MySQL `Access denied` | Check the configured account, password source, and server-side credentials. |
 | Missing database or tables | Prepare the required schema and experiment data before selecting the database. |
 | Missing A3C-GCN weights | Check `checkpoint` or train an Actor model first. |
